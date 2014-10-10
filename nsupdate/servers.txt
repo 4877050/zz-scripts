@@ -1,0 +1,2 @@
+server1.example.com.    10.10.10.10
+server2.example.com.    10.10.10.11
