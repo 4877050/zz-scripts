@@ -11,11 +11,11 @@ load './defaults.rb'
 options = {}
 OptionParser.new do |opts|
   opts.banner = "Example: \n
-    Add a single A Record:    yieldex_dns.rb -a -n <hostname> -i <ipaddress> 
-    Delete a single A Record: yieldex_dns.rb -d -n <hostname> -i <ipaddress> 
-    Add A Records from file:    yieldex_dns.rb -a -f <filename>
-    Delete A Records from file: yieldex_dns.rb -d -f <filename>
-    Verbose:            yieldex_dns.rb -a -n <hostname> -i <ipaddress> -s <dnsserver> -t <ttl> -k <keylocation> \n\n"
+    Add a single A Record:    nsupdate.rb -a -n <hostname> -i <ipaddress> 
+    Delete a single A Record: nsupdate.rb -d -n <hostname> -i <ipaddress> 
+    Add A Records from file:    nsupdate.rb -a -f <filename>
+    Delete A Records from file: nsupdate.rb -d -f <filename>
+    Verbose:            nsupdate.rb -a -n <hostname> -i <ipaddress> -s <dnsserver> -t <ttl> -k <keylocation> \n\n"
 
   opts.on("-a", "--add", "Add a host") do |v|
     options[:add] = v
