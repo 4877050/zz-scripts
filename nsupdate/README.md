@@ -1,10 +1,6 @@
 # Overview
 
 nsupdate.rb - Dynamic add A Records and reverse lookups to your DNS Server
-
-### What is this repository for? 
-
-* Quick summary
 * Version [0.0.1]
 
 ### Examples 
@@ -29,6 +25,10 @@ nsupdate.rb - Dynamic add A Records and reverse lookups to your DNS Server
 
 ### Requirements
 Dynamic Bind setup
+
+# Credits
+
+Developed by [Zachary Zager](http://www.zeninfinity.com) at [Zen Infinity](http://www.zeninfinity.com)
 
 ### Contribution guidelines ###
 
