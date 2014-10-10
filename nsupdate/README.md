@@ -30,13 +30,3 @@ Dynamic Bind setup
 
 Developed by [Zachary Zager](http://www.zeninfinity.com) at [Zen Infinity](http://www.zeninfinity.com)
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
