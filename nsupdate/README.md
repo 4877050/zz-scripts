@@ -8,8 +8,7 @@ nsupdate.rb - Dynamic add A Records and reverse lookups to your DNS Server
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### Examples ###
-Example: \n
+# Examples 
 
     Add a single A Record:    yieldex_dns.rb -a -n <hostname> -i <ipaddress>
 
@@ -19,7 +18,7 @@ Example: \n
 
     Delete A Records from file: yieldex_dns.rb -d -f <filename>
 
-    Verbose:            yieldex_dns.rb -a -n <hostname> -i <ipaddress> -s <dnsserver> -t <ttl> -k <keylocation> \n\n"
+    Verbose:            yieldex_dns.rb -a -n <hostname> -i <ipaddress> -s <dnsserver> -t <ttl> -k <keylocation>
 
 
 * Summary of set up
